@@ -1,4 +1,4 @@
-# LIBRARY NAME
+# LanguageProvider
 
 - [1 Introduction](#1-introduction)
 - [2 API](#2-api)
