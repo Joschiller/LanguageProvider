@@ -1,0 +1,9 @@
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\bin\Release\netcoreapp3.1\LanguageProvider.deps.json
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\bin\Release\netcoreapp3.1\LanguageProvider.dll
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\bin\Release\netcoreapp3.1\LanguageProvider.pdb
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.AssemblyInfoInputs.cache
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.AssemblyInfo.cs
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.csproj.CoreCompileInputs.cache
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.dll
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.pdb

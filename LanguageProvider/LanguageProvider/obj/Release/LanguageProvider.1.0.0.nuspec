@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LanguageProvider</id>
+    <version>1.0.0</version>
+    <authors>Joachim Schiller</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>A utility class for Visual Studio projects that allows simple string loading form json files for internationalization</description>
+    <tags>Language I18n Json</tags>
+    <repository url="https://github.com/Joschiller/LanguageProvider" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\bin\Release\netcoreapp3.1\LanguageProvider.dll" target="lib\netcoreapp3.1\LanguageProvider.dll" />
+    <file src="C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LICENSE.md" target="LICENSE.md" />
+  </files>
+</package>
