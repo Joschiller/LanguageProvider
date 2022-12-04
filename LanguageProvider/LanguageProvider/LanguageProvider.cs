@@ -31,6 +31,8 @@ namespace LanguageProvider
         /// Configure the available languages. The languages are references to json-file-resources of the project. Each entry in the dictionary should have the language name as the key and the file content as the value. The file content for the project resource can be retrieved using <c>Properties.Resources.YourLanguageFile</c>.
         /// <br/>
         /// The language files must be a valid json-file containing a single root node. Cross-references of template strings can be assembled using the <c>${json.path.to.string}</c>-pattern within a value.
+        /// <br/>
+        /// If the <see cref="CurrentLanguage"/> is not contained within the new configured languages, the <see cref="CurrentLanguage"/> is reset to the new configured <see cref="DefaultLanguage"/>.
         /// </summary>
         /// <param name="languages">
         /// Dictionary of the available languages.
@@ -51,6 +53,7 @@ namespace LanguageProvider
             Languages = new Dictionary<string, JObject>();
             foreach (var language in languages) Languages.Add(language.Key, JObject.Parse(System.Text.Encoding.Default.GetString(language.Value)));
             if (!languages.Keys.Contains(defaultLanguage)) throw new ArgumentException("The default language must be an available configured language");
+            if (!languages.Keys.Contains(CurrentLanguage)) _CurrentLanguage = null;
             DefaultLanguage = defaultLanguage;
         }
         private static string _CurrentLanguage;

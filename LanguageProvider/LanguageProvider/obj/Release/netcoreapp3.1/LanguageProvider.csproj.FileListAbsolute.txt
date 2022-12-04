@@ -7,3 +7,4 @@ C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvide
 C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.csproj.CoreCompileInputs.cache
 C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.dll
 C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.pdb
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Release\netcoreapp3.1\LanguageProvider.csproj.AssemblyReference.cache
