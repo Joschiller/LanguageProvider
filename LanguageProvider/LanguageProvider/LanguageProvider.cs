@@ -55,7 +55,7 @@ namespace LanguageProvider
         }
         private static string _CurrentLanguage;
         /// <summary>
-        /// The currently configured language.
+        /// The currently configured language. This will be the <see cref="DefaultLanguage"/> if no <see cref="CurrentLanguage"/> was set yet.
         /// <br/>
         /// Changing the <see cref="CurrentLanguage"/> will trigger <see cref="UpdateAllSubcribers"/>.
         /// <br/>
@@ -66,7 +66,7 @@ namespace LanguageProvider
         {
             get
             {
-                return _CurrentLanguage;
+                return _CurrentLanguage ?? DefaultLanguage;
             }
             set
             {
