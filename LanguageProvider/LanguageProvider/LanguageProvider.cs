@@ -53,7 +53,7 @@ namespace LanguageProvider
             Languages = new Dictionary<string, JObject>();
             foreach (var language in languages) Languages.Add(language.Key, JObject.Parse(System.Text.Encoding.Default.GetString(language.Value)));
             if (!languages.Keys.Contains(defaultLanguage)) throw new ArgumentException("The default language must be an available configured language");
-            if (!languages.Keys.Contains(CurrentLanguage)) _CurrentLanguage = null;
+            if (CurrentLanguage != null && !languages.Keys.Contains(CurrentLanguage)) _CurrentLanguage = null;
             DefaultLanguage = defaultLanguage;
         }
         private static string _CurrentLanguage;
