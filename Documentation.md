@@ -23,7 +23,11 @@ The `LanguageProvider` offers the possibility to manage available json-language-
 >
 > `LanguageProvider.ConfigureLanguages(new Dictionary<string, byte[]> {{ "English", Properties.Resources.EnglishLanguageFile }}, "English");`
 >
-> To automatically update components that need strings in their GUI implement the `UpdatedLanguageUser` interface accordingly.
+> To automatically update components that need strings in their GUI implement the `UpdatedLanguageUser` interface accordingly and use `RegisterUnique(UpdatedLanguageUser)` or `Register(UpdatedLanguageUser)` and `Unregister(UpdatedLanguageUser)` to receive automatic updates.
+>
+> `Register(UpdatedLanguageUser)` and `Unregister(UpdatedLanguageUser)` should normally be used for all user controls in applications as they could be instantiated several times.
+>
+> `RegisterUnique(UpdatedLanguageUser)` should normally be used for different windows in applications that can only be instantiated once.
 >
 > The configured languages can be retrieved using `LanguageList` as well as `DefaultLanguage` and `CurrentLanguage`.
 
@@ -46,7 +50,9 @@ public static string getString(string language, string path)
 
 ### 2.2 LanguageUser (interface)
 
-> A component that needs access to string resources and will automatically be updated by the `LanguageProvider`.
+> A component that needs access to string resources.
+>
+> Should be used for all user controls or windows, that are updated prorammatically so the <see cref="LanguageProvider"/> does not need to perform the update itself (e.g. dialogs).
 
 Accessible Interface:
 
@@ -56,7 +62,9 @@ void LoadTexts(string language)
 
 ### 2.3 UpdatedLanguageUser (interface)
 
-> A component that needs access to string resources.
+> A component that needs access to string resources and will automatically be updated by the `LanguageProvider`.
+>
+> Should be used for all user controls or windows, that must be updated automatically whenever the language changes.
 
 Accessible Interface:
 

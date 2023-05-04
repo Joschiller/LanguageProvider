@@ -2,6 +2,8 @@
 {
     /// <summary>
     /// A component that needs access to string resources.
+    /// <br/>
+    /// Should be used for all user controls or windows, that are updated prorammatically so the <see cref="LanguageProvider"/> does not need to perform the update itself (e.g. dialogs).
     /// </summary>
     public interface LanguageUser
     {

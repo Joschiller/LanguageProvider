@@ -19,7 +19,11 @@ namespace LanguageProvider
     /// </example>
     /// <br/>
     /// <br/>
-    /// To automatically update components that need strings in their GUI implement the <see cref="UpdatedLanguageUser"/> interface accordingly.
+    /// To automatically update components that need strings in their GUI implement the <see cref="UpdatedLanguageUser"/> interface accordingly and use <see cref="RegisterUnique(UpdatedLanguageUser)"/> or <see cref="Register(UpdatedLanguageUser)"/> and <see cref="Unregister(UpdatedLanguageUser)"/> to receive automatic updates.
+    /// <br/>
+    /// <see cref="Register(UpdatedLanguageUser)"/> and <see cref="Unregister(UpdatedLanguageUser)"/> should normally be used for all user controls in applications as they could be instantiated several times.
+    /// <br/>
+    /// <see cref="RegisterUnique(UpdatedLanguageUser)"/> should normally be used for different windows in applications that can only be instantiated once.
     /// <br/>
     /// <br/>
     /// The configured languages can be retrieved using <see cref="LanguageList"/> as well as <see cref="DefaultLanguage"/> and <see cref="CurrentLanguage"/>.
@@ -124,6 +128,8 @@ namespace LanguageProvider
         /// <br/>
         /// <b>When disposing the instance the <see cref="UpdatedLanguageUser"/> must be unregistered manually with <see cref="Unregister(UpdatedLanguageUser)"/>.</b>
         /// <br/>
+        /// This method should normally be used for all user controls in applications as they could be instantiated several times.
+        /// <br/>
         /// <br/>
         /// To automatically register and unregsiter unique instances use <see cref="RegisterUnique(UpdatedLanguageUser)"/>.
         /// </summary>
@@ -135,6 +141,8 @@ namespace LanguageProvider
         }
         /// <summary>
         /// Remove a registered <see cref="UpdatedLanguageUser"/> from language updates.
+        /// <br/>
+        /// This method should normally be used for all user controls in applications as they could be instantiated several times.
         /// <br/>
         /// <br/>
         /// To automatically register and unregsiter unique instances use <see cref="RegisterUnique(UpdatedLanguageUser)"/>.
@@ -148,6 +156,8 @@ namespace LanguageProvider
         /// Register an <see cref="UpdatedLanguageUser"/> to be updated whenever the <see cref="CurrentLanguage"/> is changed.
         /// <br/>
         /// Using this method one instance of a class can be registered at once. Registering another instance will automatically unregister the old one. That way only one instance of a specific window can be registered to be updated.
+        /// <br/>
+        /// This method should normally be used for different windows in applications that can only be instantiated once.
         /// <br/>
         /// <br/>
         /// To manage several instances of the same class use <see cref="Register(UpdatedLanguageUser)"/> and <see cref="Unregister(UpdatedLanguageUser)"/>.
