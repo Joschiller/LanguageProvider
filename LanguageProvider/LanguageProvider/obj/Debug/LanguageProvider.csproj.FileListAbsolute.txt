@@ -1,0 +1,8 @@
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\bin\Debug\LanguageProvider.dll
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\bin\Debug\LanguageProvider.pdb
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\bin\Debug\Newtonsoft.Json.dll
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\bin\Debug\Newtonsoft.Json.xml
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Debug\LanguageProvider.csproj.CoreCompileInputs.cache
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Debug\LanguageProvider.csproj.CopyComplete
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Debug\LanguageProvider.dll
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\LanguageProvider\LanguageProvider\LanguageProvider\obj\Debug\LanguageProvider.pdb
