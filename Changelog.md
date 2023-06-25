@@ -7,3 +7,7 @@
 - changing the `CurrentLanguage`
 - registering and unregistering `UpdatedLanguageUser`s for automatic language updates; available as manual or unique registration
 - reading string resources out of the configured languages
+
+## Version 1.0.1
+
+- fixed nuget package build
